@@ -1,0 +1,110 @@
+/* HomePage.css */
+
+
+/* Style for the entire homepage */
+.home {
+  /*background-color: #ffffff;*/
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Style for the hero section at the top */
+.hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #000000;
+  text-shadow: 0.05px 0.05px 0 darkgreen, -0.05px -0.05px 0 darkgreen, 0.05px -0.05px 0 darkgreen, -0.05px 0.05px 0 darkgreen;
+}
+
+.hero p {
+  padding: 3rem;
+  font-size: 2rem;
+  color: #000000;
+  /*font-weight: bold;*/
+  font-style: italic;
+  text-shadow: 0.05px 0.05px 0 darkgreen, -0.05px -0.05px 0 darkgreen, 0.05px -0.05px 0 darkgreen, -0.05px 0.05px 0 darkgreen;
+
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.skill {
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  opacity: 0.9;
+}
+
+.skill.active {
+  opacity: 1;
+}
+
+.skill-icon {
+  font-size: 10rem;
+  color: #ff6600;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 5px;
+}
+
+.skill-tooltip {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  z-index: 1;
+}
+
+.skill:hover .skill-tooltip {
+  display: block;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.control-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.control-button:hover {
+  background-color: #ff6600;
+}

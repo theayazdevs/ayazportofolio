@@ -1,0 +1,116 @@
+/* Contact.css */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Center vertically and horizontally */
+    height: 100vh;
+    /* Ensure full viewport height */
+    text-align: center;
+    /* Center text content */
+    /* Background animation */
+    position: relative;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/*.social-media-icons {
+    display: flex;
+    gap: 20px;
+}*/
+
+.social-media-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    /* Change the color to your preference */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Gradient animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.social-media-button:hover {
+    background: linear-gradient(90deg, #96ee8b, #69ccf4, #e6b710);
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s linear infinite;
+    padding: 1%;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+    /* Horizontal by default */
+
+    /* Adjust spacing between buttons */
+    gap: 10vw;
+    /*text-decoration: none;
+    color: white;*/
+}
+
+.social-media-button:hover {
+    color: gray;
+    /* Change the color for the hover effect */
+}
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+
+    /* Adjust styles for smaller screens */
+    .contact-container {
+        padding: 20px;
+        /* Add padding for better spacing on smaller screens */
+    }
+}
+
+.contact-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(45deg, #497891, #469186, #8a7846, #90624a);
+}
+
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .social-media-icons {
+        flex-direction: column;
+        /* Vertical on mobile */
+        align-items: center;
+        /* Center-align on mobile */
+    }
+
+    .social-media-button {
+        font-size: 2rem;
+        margin-top: 10px;
+        /* Add spacing between buttons on mobile */
+    }
+
+}

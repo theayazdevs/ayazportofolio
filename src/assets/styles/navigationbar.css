@@ -1,0 +1,98 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex; /* Use flexbox */
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding: 10px 20px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99%;
+  z-index: 1000; /* Set a high z-index to ensure it's above other content */
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #ff6600; /* Change the color on hover */
+}
+
+/* Responsive styles for all screens */
+@media (max-width: 768px) {
+  .navbar {
+    width: 90%;
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust this value based on your design */
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    z-index: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .navbar.active .navbar-links {
+    display: flex;
+  }
+
+  .navbar-link {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar-link:hover {
+    background-color: #ff6600; /* Change the background color on hover */
+  }
+
+  .navbar-menu-toggle {
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .bar.active:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .bar.active:nth-child(2) {
+    opacity: 0;
+  }
+
+  .bar.active:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
