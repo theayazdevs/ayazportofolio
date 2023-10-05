@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ayazportofolio/static/css/main.2005bce5.css",
-    "main.js": "/ayazportofolio/static/js/main.c7c87f5f.js",
-    "index.html": "/ayazportofolio/index.html",
-    "main.2005bce5.css.map": "/ayazportofolio/static/css/main.2005bce5.css.map",
-    "main.c7c87f5f.js.map": "/ayazportofolio/static/js/main.c7c87f5f.js.map"
+    "main.css": "/static/css/main.2005bce5.css",
+    "main.js": "/static/js/main.c7c87f5f.js",
+    "index.html": "/index.html",
+    "main.2005bce5.css.map": "/static/css/main.2005bce5.css.map",
+    "main.c7c87f5f.js.map": "/static/js/main.c7c87f5f.js.map"
   },
   "entrypoints": [
     "static/css/main.2005bce5.css",
