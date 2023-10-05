@@ -15,6 +15,9 @@ import "../assets/styles/homepage.css";
 import BackgroundAnimation from "../components/animationOne";
 
 function HomePage() {
+  useEffect(() => {
+    document.title = "Ayaz Ahmad Portofolio";
+  }, []);
   // Sample data for skills
   //const skills = [
   const skills = useMemo(

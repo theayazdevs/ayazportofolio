@@ -3,6 +3,9 @@ import "../assets/styles/contact.css";
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact Ayaz Ahmad";
+  }, []);
   return (
     <div className="contact-container">
       <div className="contact-background"></div>

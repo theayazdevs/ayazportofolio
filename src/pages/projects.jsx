@@ -36,6 +36,9 @@ const webProjects = [
   // Add more projects as needed
 ];
 function Projects() {
+  useEffect(() => {
+    document.title = "Ayaz Ahmad Projects";
+  }, []);
   return (
     <div className="projects">
       <h2>My Projects</h2>
