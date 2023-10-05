@@ -19,19 +19,19 @@ const webProjects = [
     name: "ELEMENTAL-CRUSH | A game developed in Kotlin",
     description:
       "In this project I made an Android mobile game application. The game allowed the user to move the car using the accelerometer sensor in the device. The idea was to educate children about chemistry's Periodic Table elements.",
-    liveLink: "https://friendssystemone.000webhostapp.com/",
+    liveLink: "https://github.com/theayazdevs/elementalcrush",
   },
   {
     name: "MICRO-BASH | A game developed in Swift",
     description:
       "In this project I made an iOS mobile game application. The game allowed the player to move the human character with his finger to avoid viruses and bad bacteria to survive while eating healthy fruit to gain score. The idea was to teach students about human health related to micro-organisms and the importance of healthy food.",
-    liveLink: "https://friendssystemone.000webhostapp.com/",
+    liveLink: "https://github.com/theayazdevs/microbash",
   },
   {
     name: "THE FOOD ORDERING APP | An app developed with FLUTTER",
     description:
       "In this project I made a Flutter cross platform mobile application. The application allowed the food buiness owners to create and update their food menu while allowing customers to place orders via these menus. The app also offered voice control over the application with the Speech-To-Text technologies to detect any action commands.",
-    liveLink: "https://friendssystemone.000webhostapp.com/",
+    liveLink: "https://github.com/theayazdevs/finalyearprojectuni",
   },
   // Add more projects as needed
 ];

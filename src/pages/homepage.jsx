@@ -22,56 +22,55 @@ function HomePage() {
       {
         name: "HTML",
         icon: <FaHtml5 />,
-        description: "HTML5 is the standard language for creating web pages.",
+        description: "I have used it in web development.",
       },
       {
         name: "CSS",
         icon: <FaCss3 />,
-        description:
-          "CSS3 is used for styling web pages and making them visually appealing.",
+        description: "I have used it in web development.",
       },
       {
         name: "JavaScript",
         icon: <FaJs />,
-        description:
-          "JavaScript is a versatile programming language for web development.",
+        description: "I have used it in web development.",
       },
       {
         name: "PHP",
         icon: <SiPhp />,
-        description: "PHP",
+        description: "I have used it in web development.",
       },
       {
         name: "React",
         icon: <FaReact />,
-        description:
-          "React is a popular JavaScript library for building user interfaces.",
+        description: "I have used it in web development.",
       },
       {
         name: "Flutter",
         icon: <SiFlutter />,
-        description: "gfg",
+        description:
+          "I have used it in cross-platform native mobile development.",
       },
       {
         name: "Kotlin",
         icon: <SiKotlin />,
-        description: "fdfd",
+        description: "I have used it in Android app development.",
       },
       {
         name: "Swift",
         icon: <SiSwift />,
-        description: "jfgf",
+        description: "I have used it in iOS app development.",
       },
       {
         name: "Java",
         icon: <FaJava />,
-        description: "htj",
+        description:
+          "I have used it in desktop (JavaFX) and android app development.",
       },
       {
         name: "Database",
         icon: <FaDatabase />,
         description:
-          "Database skills are essential for managing data in web applications.",
+          "I have used MySQL for web development and Firebase Realtime for mobile app development.",
       },
 
       //];

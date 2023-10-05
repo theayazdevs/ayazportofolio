@@ -75,6 +75,8 @@
 .skill-tooltip {
   display: none;
   position: absolute;
+  left: 40%;
+  top: 100%;
   background-color: #333;
   color: #fff;
   padding: 5px;
